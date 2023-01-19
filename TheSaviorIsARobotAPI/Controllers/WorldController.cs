@@ -24,7 +24,7 @@ namespace TheSaviorIsARobotAPI.Controllers
             return Ok(entry);
         }
 
-        [HttpPatch]
+        [HttpPost]
         public IActionResult UpdateWorld([FromQuery] PollutionDTO pollutionDTO)
         {
             try
